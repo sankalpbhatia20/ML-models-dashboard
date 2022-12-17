@@ -9,7 +9,7 @@ st.title('No Code ML Models 🤖')
 st.header('An easy Drag-n-Drop dashboard to build Machine Learning Models')
 
 
-uploaded_file = st.file_uploader("Drop your CSV file here:", type=['csv' , 'xlsx'], accept_multiple_files=False)
+uploaded_file = st.file_uploader("Drop your CSV or XLSX file here:", type=['csv' , 'xlsx'], accept_multiple_files=False)
 
 if uploaded_file != None:
 
