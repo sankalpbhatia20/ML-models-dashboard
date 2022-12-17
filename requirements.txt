@@ -1,0 +1,6 @@
+numpy
+pandas
+streamlit
+yfinance
+lazypredict==0.2.12
+scikit-learn==0.23.1
