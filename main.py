@@ -63,9 +63,10 @@ if uploaded_file != None:
         st.text(y_train)
         st.text(X_test)
         st.text(y_test)
-        #reg = LazyRegressor(verbose=0, ignore_warnings=False, custom_metric=None)
+        
+        reg = LazyRegressor(verbose=0, ignore_warnings=False, custom_metric=None)
 
-        #model, predict = reg.fit(X_train, X_test, y_train, y_test)
+        model, predict = reg.fit(X_train, X_test, y_train, y_test)
 
 
 
